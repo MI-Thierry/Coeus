@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coeus", "src\Coeus\Coeus.csproj", "{ED608B77-430C-4027-9C49-ECCDA48C671A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coeus.Client", "src\Coeus.Client\Coeus.Client.csproj", "{CD20197A-E25C-4DEA-B0F6-ABB9F0AD1B30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6103CA6E-6053-4DC1-9B16-14A2DAFB8AE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED608B77-430C-4027-9C49-ECCDA48C671A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED608B77-430C-4027-9C49-ECCDA48C671A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED608B77-430C-4027-9C49-ECCDA48C671A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED608B77-430C-4027-9C49-ECCDA48C671A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD20197A-E25C-4DEA-B0F6-ABB9F0AD1B30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD20197A-E25C-4DEA-B0F6-ABB9F0AD1B30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD20197A-E25C-4DEA-B0F6-ABB9F0AD1B30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD20197A-E25C-4DEA-B0F6-ABB9F0AD1B30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ED608B77-430C-4027-9C49-ECCDA48C671A} = {6103CA6E-6053-4DC1-9B16-14A2DAFB8AE5}
+		{CD20197A-E25C-4DEA-B0F6-ABB9F0AD1B30} = {6103CA6E-6053-4DC1-9B16-14A2DAFB8AE5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F21032FE-94E5-4AD3-A669-3CB044294816}
+	EndGlobalSection
+EndGlobal
